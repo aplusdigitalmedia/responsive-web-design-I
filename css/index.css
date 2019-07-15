@@ -1,6 +1,14 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
-* {
-	border:1px solid red;
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+  @media only screen and (max-width: 500px) {
+  body {
+    background-color: lightgreen;
+  }
+}
 }
 .bodycontainer {
 	max-width: 1200px;
@@ -42,23 +50,31 @@
       font-size: 30px;
     }
      .sec{
-      width: 420px;
-      height: 100px;
-      display: inline-block;
-      margin-left: 150px;
-      margin-bottom: 100px;
+     	display: inline-flex;
+     	
+     	
+     	width: 420px;
+      	height: 100px;
+     	padding-bottom: 80px;
+      	margin: 0 auto;
+      	border: 1px solid red;
+
       }
      .middle-img{
      	display: flex;
      	margin: 0 auto;
-       	margin-bottom: 100px;
+       	margin-bottom: 50px;
        	
       }
-     .last section {
-      display: inline-block;
+     .last {
+      display: inline-flex;
+      justify-content: space-around;
+      max-width: 900px;      
+	  margin:0 auto;
+      
       width: 250px;
-      height: 100px;
-      margin-left: 140px;
+     
+      border:1px solid red;
 
       }
      .contact{
