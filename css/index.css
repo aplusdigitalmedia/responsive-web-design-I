@@ -1,3 +1,72 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+* {
+	border:1px solid red;
+}
+.bodycontainer {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.container header nav a{
+    margin-left: 70px;
+    padding: 15px;
+    padding-top: 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: gray;
+    }
+    nav {
+      display: inline;
+    }
+    .logo {
+    display: inline;
+    margin-left: 50px;
+    }
+    h1 {
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    margin-left: 200px;
+    font-size: 70px;
+    margin-bottom: 60px;
+    }
+    .topImg {
+      display: inline-block;
+      margin-left: 410px;
+        }
+    .button {
+      display: inline-block;
+      border: 2px solid black;
+      margin-left: 290px;
+      text-align: center;
+      font-size: 30px;
+    }
+     .sec{
+      width: 420px;
+      height: 100px;
+      display: inline-block;
+      margin-left: 150px;
+      margin-bottom: 100px;
+      }
+     .middle-img{
+     	display: flex;
+     	margin: 0 auto;
+       	margin-bottom: 100px;
+       	
+      }
+     .last section {
+      display: inline-block;
+      width: 250px;
+      height: 100px;
+      margin-left: 140px;
 
+      }
+     .contact{
+      display: block;
+      width: 160px;
+      height: 100px;
+      line-height: 2;
+      margin-bottom: 150px;
+      margin-left: 140px;
+      }
 
