@@ -1,3 +1,143 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+@media screen and (max-width: 800px) {
+body {
+	background-color: lightblue;
+  }
+.logo {
+	display: flex;
+	flex-wrap: wrap-reverse;
+}
+.topImg {
+	display: none;
+}
+.title {
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 230px;
+}
+}
 
+@media screen and (max-width: 500px) {
+  body {
+    background-color: lightgreen;
+  }
+ nav a{
+ 	display: flex;
+ 	flex-direction: column;
+  font-size: 1.5rem;
+
+ }
+.logo, .logo3{
+	display: flex;
+	align-self: center;
+	}
+.logo2 nav a{
+margin-left: 170px;
+border-bottom: 2px solid black;
+}
+.logo3{
+  border-bottom: 2px solid black;
+}
+ .title {
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 100px;	
+	}
+  .last{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    padding-bottom: 50px;
+    
+  }
+  .sec{
+    display: flex;
+    flex-direction: column;
+    }
+  
+  }
+.bodycontainer {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+nav a{
+	display: inline-flex;
+	padding: 30px;
+	text-decoration: none;
+  color: gray
+}
+
+   .logo, .logo3{
+   	display: flex;
+   	justify-content: center;
+    align-items: center;
+   	
+   }
+    .top .title {
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    font-size: 30px;
+    
+    }
+    .top{
+    	display: flex;
+    	justify-content: center;
+    	justify-content: space-around;
+    	max-width: 900px;
+    	margin:0 auto;
+    	padding-bottom: 200px;
+    	border-bottom: 2px solid black;
+    }
+   
+   .sec1{
+      display: flex;
+     	width: 400px;
+      height: 150px;
+      	
+      }
+     .sec {
+      	display: flex;
+      	justify-content: center;
+     	  justify-content: space-around;
+     	  max-width: 900px;
+     	  margin:0 auto;
+
+      }
+     .middle-img{
+     	display: flex;
+     	margin: 0 auto;
+       	margin-bottom: 50px;
+     }
+     /*.last .sec2{
+      padding-bottom: 50px;     
+      width: 250px;
+      height: 150px;
+      }*/
+     .last{
+     	display: flex;
+     	justify-content: center;
+     	justify-content: space-around;
+     	max-width: 900px;
+     	margin:0 auto;
+     	border-bottom: 2px solid black;
+     }
+     .contact{
+      display: flex;
+      margin:0 auto;
+      max-width: 900px;
+  		}
+      .contact .contact2{
+      width: 160px;
+      height: 100px;
+      line-height: 2;
+      margin-bottom: 150px;
+     
+      
+      }
+      .copy{
+      	display: flex;
+      	justify-content: center;
+      }
