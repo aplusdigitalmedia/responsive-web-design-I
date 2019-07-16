@@ -49,16 +49,18 @@
       text-align: center;
       font-size: 30px;
     }
-     .sec{
-     	display: inline-flex;
-     	
-     	
-     	width: 420px;
+     .sec .sec1{
+     	width: 400px;
       	height: 100px;
      	padding-bottom: 80px;
-      	margin: 0 auto;
-      	border: 1px solid red;
-
+      	
+      }
+      .sec {
+      	display: flex;
+      	justify-content: center;
+     	justify-content: space-around;
+     	max-width: 900px;
+     	margin:0 auto;
       }
      .middle-img{
      	display: flex;
@@ -66,23 +68,24 @@
        	margin-bottom: 50px;
        	
       }
-     .last {
-      display: inline-flex;
-      justify-content: space-around;
-      max-width: 900px;      
-	  margin:0 auto;
-      
+     .last .sec2{
+      padding-bottom: 50px;     
       width: 250px;
-     
-      border:1px solid red;
-
+      height: 150px;
       }
+     .last{
+     	display: flex;
+     	justify-content: center;
+     	justify-content: space-around;
+     	max-width: 900px;
+     	margin:0 auto;
+     }
      .contact{
       display: block;
       width: 160px;
       height: 100px;
       line-height: 2;
       margin-bottom: 150px;
-      margin-left: 140px;
+      margin-left: 170px;
       }
 
