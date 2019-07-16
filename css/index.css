@@ -69,9 +69,10 @@ nav a{
   color: gray
 }
 
-   .logo{
+   .logo, .logo3{
    	display: flex;
    	justify-content: center;
+    align-items: center;
    	
    }
     .top .title {
