@@ -1,10 +1,10 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 @media screen and (max-width: 800px) {
-  body {
-    background-color: lightblue;
+.container {
+
   }
-  @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   body {
     background-color: lightgreen;
   }
@@ -14,21 +14,26 @@
 	max-width: 1200px;
 	margin: 0 auto;
 }
-.container header nav a{
+nav a{
+	display: inline-flex;
+	padding: 30px;
+	text-decoration: none;
+    color: gray
+}
+/*.container .logo {
     margin-left: 70px;
     padding: 15px;
     padding-top: 50px;
-    display: inline-block;
-    text-decoration: none;
-    color: gray;
-    }
-    nav {
-      display: inline;
-    }
-    .logo {
-    display: inline;
-    margin-left: 50px;
-    }
+    }*/
+header {
+      padding: 15px;
+     
+     }
+   .logo{
+   	display: flex;
+   	justify-content: center;
+   	
+   }
     .top .title {
     width: 150px;
     height: 200px;
