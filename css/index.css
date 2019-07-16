@@ -29,33 +29,29 @@
     display: inline;
     margin-left: 50px;
     }
-    h1 {
-    display: inline-block;
+    .top .title {
     width: 150px;
     height: 200px;
     text-align: center;
-    margin-left: 200px;
-    font-size: 70px;
-    margin-bottom: 60px;
+    font-size: 30px;
+    
     }
-    .topImg {
-      display: inline-block;
-      margin-left: 410px;
-        }
-    .button {
-      display: inline-block;
-      border: 2px solid black;
-      margin-left: 290px;
-      text-align: center;
-      font-size: 30px;
+    .top{
+    	display: flex;
+    	justify-content: center;
+    	justify-content: space-around;
+    	max-width: 900px;
+    	margin:0 auto;
+    	padding-bottom: 200px;
     }
-     .sec .sec1{
+   
+    .sec .sec1{
      	width: 400px;
       	height: 100px;
      	padding-bottom: 80px;
       	
       }
-      .sec {
+     .sec {
       	display: flex;
       	justify-content: center;
      	justify-content: space-around;
@@ -66,8 +62,7 @@
      	display: flex;
      	margin: 0 auto;
        	margin-bottom: 50px;
-       	
-      }
+     }
      .last .sec2{
       padding-bottom: 50px;     
       width: 250px;
