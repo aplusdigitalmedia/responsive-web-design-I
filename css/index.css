@@ -1,14 +1,31 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 @media screen and (max-width: 800px) {
-.container {
-
+body {
+	background-color: lightblue;
   }
-@media only screen and (max-width: 500px) {
+.logo {
+	display: flex;
+	flex-wrap: wrap-reverse;
+}
+.topImg {
+	display: none;
+}
+.title {
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 230px;
+}
+/*.contact .contact2{
+	display: flex;
+	justify-content: flex-start;
+	}*/
+}
+
+@media screen and (max-width: 500px) {
   body {
     background-color: lightgreen;
   }
-}
 }
 .bodycontainer {
 	max-width: 1200px;
@@ -20,11 +37,7 @@ nav a{
 	text-decoration: none;
     color: gray
 }
-/*.container .logo {
-    margin-left: 70px;
-    padding: 15px;
-    padding-top: 50px;
-    }*/
+
 header {
       padding: 15px;
      
@@ -48,6 +61,7 @@ header {
     	max-width: 900px;
     	margin:0 auto;
     	padding-bottom: 200px;
+    	border-bottom: 2px solid black;
     }
    
     .sec .sec1{
@@ -62,6 +76,7 @@ header {
      	justify-content: space-around;
      	max-width: 900px;
      	margin:0 auto;
+
       }
      .middle-img{
      	display: flex;
@@ -79,13 +94,22 @@ header {
      	justify-content: space-around;
      	max-width: 900px;
      	margin:0 auto;
+     	border-bottom: 2px solid black;
      }
      .contact{
-      display: block;
+      display: flex;
+      margin:0 auto;
+      max-width: 800px;
+  		}
+      .contact .contact2{
       width: 160px;
       height: 100px;
       line-height: 2;
       margin-bottom: 150px;
-      margin-left: 170px;
+     
+      
       }
-
+      .copy{
+      	display: flex;
+      	justify-content: center;
+      }
